@@ -1,0 +1,51 @@
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+#cmake
+CMakeCache.txt
+CMakeFiles/
+*.cmake
+Makefile
+
+#IDE-codeblock
+*.cbp
+*.layout
+
+#vscode
+#.vscode
+
+#misc stuff
+core
+*.wav
+
+#directories
+build
+logs
+doc_doxygen
