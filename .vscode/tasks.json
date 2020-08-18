@@ -5,12 +5,12 @@
     "tasks": [
         {
             "type": "shell",
-            "label": "sara_at build gcc-7",
+            "label": "gnssPositionenWolke build gcc-7",
             "command": "/usr/bin/gcc-7",
             "args": [
                 "-g",
                 "-I${workspaceFolder}/include",
-                "${workspaceFolder}/src/main.c",
+                "${workspaceFolder}/src/main.cpp",
                 "${workspaceFolder}/src/utils.c",
                 "-o",
                 "${workspaceFolder}/build/gnssPositionenWolke"

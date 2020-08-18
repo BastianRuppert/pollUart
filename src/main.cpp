@@ -38,7 +38,6 @@ static void catch_sigint(int signum){
   need_exit = 1;
 }
 
-char tmpBuf[2048];
 
 int main(int argc, char **argv)
 {
@@ -110,13 +109,13 @@ void uart_poll()
   int len,i;
 
   len = read(pfds[POLLSRC_UART].fd,uart_buffer,sizeof(uart_buffer));
-  printf("uart1_poll read len = %i i: \n",len);
-#if 0
+  //printf("uart1_poll read len = %i i: \n",len);
+#if 1
   if(len>=0){
 	  for(i=0;i<len;i++){
       	printf("|%c",uart_buffer[i]);
     }
-	  //printf("\n");
+	  printf("\n");
   }
 #endif
 }

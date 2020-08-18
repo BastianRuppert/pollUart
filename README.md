@@ -2,6 +2,11 @@
 
 GNSS Modul auslesen, Werte sammeln und dessen Mittelpunkt berechnen
 
+## abstract
+
+Dieses Codebeispiel bietet einen einfachen Kommandozeilen-Parser und die Verarbeitung von Input von einer UART-Schnittstelle
+durch die poll() Funktion.
+
 ## TODO
 
     -nmea parser
