@@ -5,8 +5,8 @@
     "tasks": [
         {
             "type": "shell",
-            "label": "gnssPositionenWolke build gcc-7",
-            "command": "/usr/bin/gcc-7",
+            "label": "gnssPositionenWolke build gcc",
+            "command": "/usr/bin/gcc",
             "args": [
                 "-g",
                 "-I${workspaceFolder}/include",

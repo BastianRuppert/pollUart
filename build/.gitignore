@@ -46,6 +46,4 @@ core
 *.wav
 
 #directories
-#build
-logs
-doc_doxygen
+gnssPositionenWolke

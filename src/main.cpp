@@ -130,7 +130,7 @@ static void get_stdin(void)
     {
       need_exit = 1;
     }
-    else if(!strncmp("test",buf,strlen("atTest")))
+    else if(!strncmp("test",buf,strlen("test")))
     {
       printf("Testausgabe: Test\n");
     }
