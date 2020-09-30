@@ -5,10 +5,10 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "gnssPositionenWolke debug",
+            "name": "pollUart debug",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/build/gnssPositionenWolke",
+            "program": "${workspaceFolder}/build/pollUart",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",

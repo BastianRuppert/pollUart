@@ -5,7 +5,7 @@
     "tasks": [
         {
             "type": "shell",
-            "label": "gnssPositionenWolke build gcc",
+            "label": "pollUart build gcc",
             "command": "/usr/bin/gcc",
             "args": [
                 "-g",
@@ -13,7 +13,7 @@
                 "${workspaceFolder}/src/main.cpp",
                 "${workspaceFolder}/src/utils.c",
                 "-o",
-                "${workspaceFolder}/build/gnssPositionenWolke"
+                "${workspaceFolder}/build/pollUart"
             ],
             "options": {
                 "cwd": "/usr/bin"

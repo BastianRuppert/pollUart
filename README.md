@@ -1,6 +1,6 @@
-# gnssPositionenWolke
+# uartPoll
 
-GNSS Modul auslesen, Werte sammeln und dessen Mittelpunkt berechnen
+poll uart for Unix-like systems
 
 ## abstract
 
@@ -9,13 +9,11 @@ durch die poll() Funktion.
 
 ## TODO
 
-    -nmea parser
-    -class PosAverager
+    -Startpunkt für neue Projekte auf unix-systemen mit Poll Interface.
 
 ### git
 
 v0.1
-
     -UART Inbetriebnahme
 
 ### How to compile
