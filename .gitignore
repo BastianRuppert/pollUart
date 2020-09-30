@@ -46,6 +46,6 @@ core
 *.wav
 
 #directories
-#build
+build
 logs
 doc_doxygen
