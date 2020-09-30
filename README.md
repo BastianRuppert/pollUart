@@ -13,7 +13,7 @@ durch die poll() Funktion.
 
 ### git
 
-v0.1
+vxxx
     -UART Inbetriebnahme
 
 ### How to compile
